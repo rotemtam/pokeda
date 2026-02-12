@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>פּוֹקֵדָע - חִידוֹן נְדִירוּת קְלָפִים</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Heebo', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .screen { display: none; flex-direction: column; align-items: center; min-height: 100vh; padding: 20px; }
+  .screen.active { display: flex; }
+
+  /* Welcome Screen */
+  #welcome { justify-content: center; gap: 24px; text-align: center; }
+  .logo {
+    font-size: 4.5rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #ffcb05, #ff6b35, #e63946);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    filter: drop-shadow(0 4px 8px rgba(255, 203, 5, 0.3));
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .subtitle {
+    font-size: 1.3rem;
+    color: #a8d8ea;
+    margin-top: -10px;
+  }
+  .start-btn {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #ffcb05, #ff6b35);
+    color: #1a1a2e;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 20px rgba(255, 203, 5, 0.4);
+    margin-top: 12px;
+  }
+  .start-btn:hover { transform: scale(1.05); box-shadow: 0 6px 30px rgba(255, 203, 5, 0.6); }
+  .start-btn:active { transform: scale(0.98); }
+
+  .pokeball-deco {
+    font-size: 3rem;
+    margin-top: 20px;
+    opacity: 0.5;
+  }
+
+  /* Game Screen */
+  #game { padding-top: 12px; gap: 10px; }
+
+  .game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 4px;
+  }
+  .round-display {
+    font-size: 1.1rem;
+    color: #a8d8ea;
+  }
+  .score-display {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffcb05;
+  }
+
+  .timer-bar-container {
+    width: 100%;
+    max-width: 500px;
+    height: 8px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .timer-bar {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #e63946, #ff6b35, #ffcb05);
+    border-radius: 4px;
+    transition: width 0.1s linear;
+  }
+  .timer-bar.danger { background: linear-gradient(90deg, #e63946, #e63946); }
+
+  .card-container {
+    position: relative;
+    width: 260px;
+    height: 363px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    background: #222;
+    flex-shrink: 0;
+  }
+  .card-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-name-he {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+
+  .rarity-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .rarity-btn {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 14px 8px;
+    border: 3px solid rgba(255,255,255,0.2);
+    border-radius: 14px;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .rarity-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.4); transform: scale(1.03); }
+  .rarity-btn:active { transform: scale(0.97); }
+  .rarity-btn.correct { background: #2d6a4f; border-color: #52b788; }
+  .rarity-btn.wrong { background: #6b2039; border-color: #e63946; }
+  .rarity-btn.reveal { border-color: #52b788; background: rgba(45, 106, 79, 0.5); }
+  .rarity-btn:disabled { cursor: default; opacity: 0.85; }
+
+  .points-flash {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffcb05;
+    opacity: 0;
+    transition: all 0.4s;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .points-flash.show {
+    opacity: 1;
+    animation: popUp 0.4s ease-out;
+  }
+  @keyframes popUp {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  .points-flash.zero { color: #e63946; }
+
+  /* Results Screen */
+  #results { justify-content: center; gap: 20px; text-align: center; }
+  .results-title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #ffcb05;
+  }
+  .results-score {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin: 8px 0;
+  }
+  .results-stars { font-size: 3rem; margin: 4px 0; }
+  .results-breakdown {
+    display: flex;
+    gap: 32px;
+    font-size: 1.2rem;
+    margin: 8px 0;
+  }
+  .results-correct { color: #52b788; }
+  .results-wrong { color: #e63946; }
+  .results-message {
+    font-size: 1.2rem;
+    color: #a8d8ea;
+    max-width: 400px;
+  }
+
+  .round-summary {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .round-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+  }
+  .round-row .icon { font-size: 1.2rem; flex-shrink: 0; }
+  .round-row .r-name { flex: 1; text-align: right; }
+  .round-row .r-pts { color: #ffcb05; font-weight: 700; min-width: 40px; text-align: left; }
+
+  @media (max-width: 420px) {
+    .logo { font-size: 3rem; }
+    .card-container { width: 220px; height: 308px; }
+    .rarity-btn { font-size: 1rem; padding: 12px 6px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Welcome Screen -->
+<div id="welcome" class="screen active">
+  <div class="logo">פּוֹקֵדָע</div>
+  <div class="subtitle">חִידוֹן נְדִירוּת קְלָפֵי פּוֹקֵימוֹן</div>
+  <button class="start-btn" onclick="startGame()">!הַתְחֵל מִשְׂחָק</button>
+  <div class="pokeball-deco">⚡ 🔴 ⚡</div>
+</div>
+
+<!-- Game Screen -->
+<div id="game" class="screen">
+  <div class="game-header">
+    <span class="round-display" id="roundDisplay"></span>
+    <span class="score-display" id="scoreDisplay">0 :נְקוּדוֹת</span>
+  </div>
+  <div class="timer-bar-container">
+    <div class="timer-bar" id="timerBar"></div>
+  </div>
+  <div class="card-container">
+    <img id="cardImage" src="" alt="Pokemon card">
+  </div>
+  <div class="card-name-he" id="cardNameHe"></div>
+  <div class="points-flash" id="pointsFlash"></div>
+  <div class="rarity-buttons" id="rarityButtons">
+    <button class="rarity-btn" data-rarity="ragil" onclick="guess('ragil')">⚪ רָגִיל</button>
+    <button class="rarity-btn" data-rarity="meyuhad" onclick="guess('meyuhad')">💎 מְיוּחָד</button>
+    <button class="rarity-btn" data-rarity="nadir" onclick="guess('nadir')">⭐ נָדִיר</button>
+    <button class="rarity-btn" data-rarity="nadir_meod" onclick="guess('nadir_meod')">👑 נָדִיר מְאוֹד</button>
+  </div>
+</div>
+
+<!-- Results Screen -->
+<div id="results" class="screen">
+  <div class="results-title">!סִיּוּם הַמִּשְׂחָק</div>
+  <div class="results-stars" id="resultStars"></div>
+  <div class="results-score" id="resultScore"></div>
+  <div class="results-breakdown">
+    <span class="results-correct" id="resultCorrect"></span>
+    <span class="results-wrong" id="resultWrong"></span>
+  </div>
+  <div class="results-message" id="resultMessage"></div>
+  <div class="round-summary" id="roundSummary"></div>
+  <button class="start-btn" onclick="startGame()" style="margin-top:12px">שַׂחֵק שׁוּב</button>
+</div>
+
+<script>
+const RARITY_LABELS = {
+  ragil: 'רָגִיל',
+  meyuhad: 'מְיוּחָד',
+  nadir: 'נָדִיר',
+  nadir_meod: 'נָדִיר מְאוֹד',
+};
+const ROUND_COUNT = 10;
+const ROUND_TIME = 20; // seconds
+
+let allCards = [];
+let gameCards = [];
+let currentRound = 0;
+let score = 0;
+let roundStartTime = 0;
+let timerInterval = null;
+let answered = false;
+let roundResults = [];
+
+// Load cards
+fetch('cards.json')
+  .then(r => r.json())
+  .then(data => { allCards = data; })
+  .catch(err => console.error('Failed to load cards:', err));
+
+function pickCards() {
+  // Weighted selection: ensure mix of rarities
+  const byRarity = {};
+  for (const c of allCards) {
+    if (!byRarity[c.rarity]) byRarity[c.rarity] = [];
+    byRarity[c.rarity].push(c);
+  }
+  // Shuffle each rarity pool
+  for (const r in byRarity) byRarity[r] = shuffle(byRarity[r]);
+
+  const picked = [];
+  const rarities = ['ragil', 'meyuhad', 'nadir', 'nadir_meod'];
+  // Pick at least 2 from each rarity (if available)
+  for (const r of rarities) {
+    const pool = byRarity[r] || [];
+    const count = Math.min(2, pool.length);
+    for (let i = 0; i < count; i++) picked.push(pool[i]);
+  }
+  // Fill remaining slots randomly from all cards (avoiding duplicates)
+  const pickedNums = new Set(picked.map(c => c.number));
+  const remaining = shuffle(allCards.filter(c => !pickedNums.has(c.number)));
+  for (const c of remaining) {
+    if (picked.length >= ROUND_COUNT) break;
+    picked.push(c);
+  }
+  return shuffle(picked).slice(0, ROUND_COUNT);
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function startGame() {
+  gameCards = pickCards();
+  currentRound = 0;
+  score = 0;
+  roundResults = [];
+  updateScore();
+  showScreen('game');
+  showRound();
+}
+
+function showRound() {
+  if (currentRound >= ROUND_COUNT) { showResults(); return; }
+  const card = gameCards[currentRound];
+  answered = false;
+
+  document.getElementById('roundDisplay').textContent = `${currentRound + 1} / ${ROUND_COUNT} :סִבּוּב`;
+  document.getElementById('cardImage').src = card.image;
+  document.getElementById('cardNameHe').textContent = card.name_he;
+
+  // Reset buttons
+  const btns = document.querySelectorAll('.rarity-btn');
+  btns.forEach(b => {
+    b.classList.remove('correct', 'wrong', 'reveal');
+    b.disabled = false;
+  });
+
+  // Hide points flash
+  document.getElementById('pointsFlash').classList.remove('show');
+  document.getElementById('pointsFlash').classList.remove('zero');
+
+  // Start timer
+  roundStartTime = Date.now();
+  const bar = document.getElementById('timerBar');
+  bar.style.width = '100%';
+  bar.classList.remove('danger');
+
+  clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    const elapsed = (Date.now() - roundStartTime) / 1000;
+    const pct = Math.max(0, 1 - elapsed / ROUND_TIME) * 100;
+    bar.style.width = pct + '%';
+    if (pct < 25) bar.classList.add('danger');
+
+    if (elapsed >= ROUND_TIME) {
+      clearInterval(timerInterval);
+      if (!answered) timeUp();
+    }
+  }, 50);
+}
+
+function guess(rarity) {
+  if (answered) return;
+  answered = true;
+  clearInterval(timerInterval);
+
+  const card = gameCards[currentRound];
+  const elapsed = (Date.now() - roundStartTime) / 1000;
+  const isCorrect = rarity === card.rarity;
+  const points = isCorrect ? Math.max(0, Math.round(100 * (1 - elapsed / ROUND_TIME))) : 0;
+
+  score += points;
+  updateScore();
+
+  // Highlight buttons
+  const btns = document.querySelectorAll('.rarity-btn');
+  btns.forEach(b => {
+    b.disabled = true;
+    if (b.dataset.rarity === card.rarity) b.classList.add('correct');
+    if (b.dataset.rarity === rarity && !isCorrect) b.classList.add('wrong');
+  });
+
+  // Show points flash
+  const flash = document.getElementById('pointsFlash');
+  flash.textContent = isCorrect ? `${points}+` : '0';
+  flash.classList.remove('zero');
+  if (!isCorrect) flash.classList.add('zero');
+  flash.classList.add('show');
+
+  roundResults.push({ card, isCorrect, points });
+
+  setTimeout(() => { currentRound++; showRound(); }, 1500);
+}
+
+function timeUp() {
+  answered = true;
+  const card = gameCards[currentRound];
+
+  const btns = document.querySelectorAll('.rarity-btn');
+  btns.forEach(b => {
+    b.disabled = true;
+    if (b.dataset.rarity === card.rarity) b.classList.add('reveal');
+  });
+
+  const flash = document.getElementById('pointsFlash');
+  flash.textContent = '!נִגְמַר הַזְּמַן';
+  flash.classList.add('zero');
+  flash.classList.add('show');
+
+  roundResults.push({ card, isCorrect: false, points: 0 });
+
+  setTimeout(() => { currentRound++; showRound(); }, 2000);
+}
+
+function updateScore() {
+  document.getElementById('scoreDisplay').textContent = `${score} :נְקוּדוֹת`;
+}
+
+function showResults() {
+  clearInterval(timerInterval);
+  showScreen('results');
+
+  const correct = roundResults.filter(r => r.isCorrect).length;
+  const wrong = ROUND_COUNT - correct;
+
+  document.getElementById('resultScore').textContent = `1000 / ${score}`;
+  document.getElementById('resultCorrect').textContent = `${correct} ✓ נָכוֹן`;
+  document.getElementById('resultWrong').textContent = `${wrong} ✗ שָׁגוּי`;
+
+  // Stars
+  let stars = '';
+  if (score >= 900) stars = '⭐⭐⭐⭐⭐';
+  else if (score >= 700) stars = '⭐⭐⭐⭐';
+  else if (score >= 500) stars = '⭐⭐⭐';
+  else if (score >= 300) stars = '⭐⭐';
+  else if (score >= 100) stars = '⭐';
+  else stars = '💪';
+  document.getElementById('resultStars').textContent = stars;
+
+  // Message
+  let msg = '';
+  if (score >= 900) msg = '!מְדַהִים! אַתָּה מוּמְחֶה לְקְלָפִים';
+  else if (score >= 700) msg = '!כָּל הַכָּבוֹד! אַתָּה מַכִּיר טוֹב אֶת הַקְּלָפִים';
+  else if (score >= 500) msg = '!לֹא רַע! עוֹד קְצָת תַּרְגּוּל וְתִהְיֶה מוּמְחֶה';
+  else if (score >= 300) msg = '!הַתְחָלָה טוֹבָה! נַסֶּה שׁוּב';
+  else msg = '!אַל תִּוָּאֵשׁ! תִּתְרַגֵּל עִם הַזְּמַן';
+  document.getElementById('resultMessage').textContent = msg;
+
+  // Round summary
+  const summary = document.getElementById('roundSummary');
+  summary.innerHTML = '';
+  for (const r of roundResults) {
+    const row = document.createElement('div');
+    row.className = 'round-row';
+    row.innerHTML = `
+      <span class="icon">${r.isCorrect ? '✅' : '❌'}</span>
+      <span class="r-name">${r.card.name_he}</span>
+      <span class="r-pts">${r.points}</span>
+    `;
+    summary.appendChild(row);
+  }
+}
+</script>
+</body>
+</html>

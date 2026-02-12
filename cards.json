@@ -1,0 +1,2067 @@
+[
+  {
+    "number": 1,
+    "name_en": "Erika's Oddish",
+    "name_he": "אוֹדִישׁ שֶׁל אֶרִיקָה",
+    "rarity": "ragil",
+    "image": "images/1.png"
+  },
+  {
+    "number": 2,
+    "name_en": "Erika's Gloom",
+    "name_he": "גְּלוּם שֶׁל אֶרִיקָה",
+    "rarity": "ragil",
+    "image": "images/2.png"
+  },
+  {
+    "number": 3,
+    "name_en": "Erika's Vileplume ex",
+    "name_he": "וַיְלְפְּלוּם אֶקְס שֶׁל אֶרִיקָה",
+    "rarity": "meyuhad",
+    "image": "images/3.png"
+  },
+  {
+    "number": 4,
+    "name_en": "Erika's Bellsprout",
+    "name_he": "בֶּלְסְפְּרָאוּט שֶׁל אֶרִיקָה",
+    "rarity": "ragil",
+    "image": "images/4.png"
+  },
+  {
+    "number": 5,
+    "name_en": "Erika's Weepinbell",
+    "name_he": "וִיפִּינְבֶּל שֶׁל אֶרִיקָה",
+    "rarity": "ragil",
+    "image": "images/5.png"
+  },
+  {
+    "number": 6,
+    "name_en": "Erika's Victreebel",
+    "name_he": "וִיקְטְרִיבֶּל שֶׁל אֶרִיקָה",
+    "rarity": "meyuhad",
+    "image": "images/6.png"
+  },
+  {
+    "number": 7,
+    "name_en": "Erika's Tangela",
+    "name_he": "טָנְגֶלָה שֶׁל אֶרִיקָה",
+    "rarity": "ragil",
+    "image": "images/7.png"
+  },
+  {
+    "number": 8,
+    "name_en": "Chikorita",
+    "name_he": "צִ׳יקוֹרִיטָה",
+    "rarity": "ragil",
+    "image": "images/8.png"
+  },
+  {
+    "number": 9,
+    "name_en": "Bayleef",
+    "name_he": "בֵּיְלִיף",
+    "rarity": "ragil",
+    "image": "images/9.png"
+  },
+  {
+    "number": 10,
+    "name_en": "Mega Meganium ex",
+    "name_he": "מֶגָה מֶגָנִיוּם אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/10.png"
+  },
+  {
+    "number": 11,
+    "name_en": "Wurmple",
+    "name_he": "וּוּרְמְפְּל",
+    "rarity": "ragil",
+    "image": "images/11.png"
+  },
+  {
+    "number": 12,
+    "name_en": "Silcoon",
+    "name_he": "סִילְקוּן",
+    "rarity": "ragil",
+    "image": "images/12.png"
+  },
+  {
+    "number": 13,
+    "name_en": "Beautifly",
+    "name_he": "בְּיוּטִיפְלַיי",
+    "rarity": "ragil",
+    "image": "images/13.png"
+  },
+  {
+    "number": 14,
+    "name_en": "Cascoon",
+    "name_he": "קָסְקוּן",
+    "rarity": "ragil",
+    "image": "images/14.png"
+  },
+  {
+    "number": 15,
+    "name_en": "Dustox",
+    "name_he": "דָסְטוֹקְס",
+    "rarity": "ragil",
+    "image": "images/15.png"
+  },
+  {
+    "number": 16,
+    "name_en": "Budew",
+    "name_he": "בָּאדְיוּ",
+    "rarity": "ragil",
+    "image": "images/16.png"
+  },
+  {
+    "number": 17,
+    "name_en": "Grubbin",
+    "name_he": "גְרָבִּין",
+    "rarity": "ragil",
+    "image": "images/17.png"
+  },
+  {
+    "number": 18,
+    "name_en": "Team Rocket's Tarountula",
+    "name_he": "טָרָאוּנְטוּלָה שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/18.png"
+  },
+  {
+    "number": 19,
+    "name_en": "Team Rocket's Spidops",
+    "name_he": "סְפַּיְדוֹפְּס שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "meyuhad",
+    "image": "images/19.png"
+  },
+  {
+    "number": 20,
+    "name_en": "Charmander",
+    "name_he": "צָ׳רְמָנְדֶר",
+    "rarity": "ragil",
+    "image": "images/20.png"
+  },
+  {
+    "number": 21,
+    "name_en": "Charmeleon",
+    "name_he": "צָ׳רְמֵלֵיאוֹן",
+    "rarity": "ragil",
+    "image": "images/21.png"
+  },
+  {
+    "number": 22,
+    "name_en": "Mega Charizard Y ex",
+    "name_he": "מֶגָה צָ׳רִיזָארְד אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/22.png"
+  },
+  {
+    "number": 23,
+    "name_en": "Ethan's Slugma",
+    "name_he": "סְלָגְמָה שֶׁל אֵיתָן",
+    "rarity": "ragil",
+    "image": "images/23.png"
+  },
+  {
+    "number": 24,
+    "name_en": "Ethan's Magcargo",
+    "name_he": "מָגְקָרְגוֹ שֶׁל אֵיתָן",
+    "rarity": "meyuhad",
+    "image": "images/24.png"
+  },
+  {
+    "number": 25,
+    "name_en": "Entei",
+    "name_he": "אֶנְטֵיי",
+    "rarity": "meyuhad",
+    "image": "images/25.png"
+  },
+  {
+    "number": 26,
+    "name_en": "Ethan's Ho-Oh ex",
+    "name_he": "הוֹ-אוֹ אֶקְס שֶׁל אֵיתָן",
+    "rarity": "meyuhad",
+    "image": "images/26.png"
+  },
+  {
+    "number": 27,
+    "name_en": "Numel",
+    "name_he": "נָמֶל",
+    "rarity": "ragil",
+    "image": "images/27.png"
+  },
+  {
+    "number": 28,
+    "name_en": "Camerupt",
+    "name_he": "קָמֶרָפְּט",
+    "rarity": "ragil",
+    "image": "images/28.png"
+  },
+  {
+    "number": 29,
+    "name_en": "Tepig",
+    "name_he": "טֶפִּיג",
+    "rarity": "ragil",
+    "image": "images/29.png"
+  },
+  {
+    "number": 30,
+    "name_en": "Pignite",
+    "name_he": "פִּיגְנַיְט",
+    "rarity": "ragil",
+    "image": "images/30.png"
+  },
+  {
+    "number": 31,
+    "name_en": "Mega Emboar ex",
+    "name_he": "מֶגָה אֶמְבּוֹאָר אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/31.png"
+  },
+  {
+    "number": 32,
+    "name_en": "N's Darumaka",
+    "name_he": "דָרוּמָקָה שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/32.png"
+  },
+  {
+    "number": 33,
+    "name_en": "N's Darmanitan",
+    "name_he": "דָרְמָנִיטָן שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/33.png"
+  },
+  {
+    "number": 34,
+    "name_en": "Salandit",
+    "name_he": "סָלָנְדִיט",
+    "rarity": "ragil",
+    "image": "images/34.png"
+  },
+  {
+    "number": 35,
+    "name_en": "Salazzle",
+    "name_he": "סָלָזֶל",
+    "rarity": "ragil",
+    "image": "images/35.png"
+  },
+  {
+    "number": 36,
+    "name_en": "Scorbunny",
+    "name_he": "סְקוֹרְבָּאנִי",
+    "rarity": "ragil",
+    "image": "images/36.png"
+  },
+  {
+    "number": 37,
+    "name_en": "Raboot",
+    "name_he": "רָבּוּט",
+    "rarity": "ragil",
+    "image": "images/37.png"
+  },
+  {
+    "number": 38,
+    "name_en": "Cinderace ex",
+    "name_he": "סִינְדֵרָאס אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/38.png"
+  },
+  {
+    "number": 39,
+    "name_en": "Psyduck",
+    "name_he": "סַיְדָאק",
+    "rarity": "ragil",
+    "image": "images/39.png"
+  },
+  {
+    "number": 40,
+    "name_en": "Golduck",
+    "name_he": "גּוֹלְדָאק",
+    "rarity": "ragil",
+    "image": "images/40.png"
+  },
+  {
+    "number": 41,
+    "name_en": "Totodile",
+    "name_he": "טוֹטוֹדַיְל",
+    "rarity": "ragil",
+    "image": "images/41.png"
+  },
+  {
+    "number": 42,
+    "name_en": "Croconaw",
+    "name_he": "קְרוֹקוֹנָאוּ",
+    "rarity": "ragil",
+    "image": "images/42.png"
+  },
+  {
+    "number": 43,
+    "name_en": "Mega Feraligatr ex",
+    "name_he": "מֶגָה פֶרָלִיגֵייְטְר אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/43.png"
+  },
+  {
+    "number": 44,
+    "name_en": "Sneasel",
+    "name_he": "סְנִיזֶל",
+    "rarity": "ragil",
+    "image": "images/44.png"
+  },
+  {
+    "number": 45,
+    "name_en": "Weavile",
+    "name_he": "וִיוַיְל",
+    "rarity": "ragil",
+    "image": "images/45.png"
+  },
+  {
+    "number": 46,
+    "name_en": "Snorunt",
+    "name_he": "סְנוֹרָנְט",
+    "rarity": "ragil",
+    "image": "images/46.png"
+  },
+  {
+    "number": 47,
+    "name_en": "Mega Froslass ex",
+    "name_he": "מֶגָה פְרוֹסְלָאס אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/47.png"
+  },
+  {
+    "number": 48,
+    "name_en": "Regice ex",
+    "name_he": "רֶגִ׳יְס אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/48.png"
+  },
+  {
+    "number": 49,
+    "name_en": "N's Vanillite",
+    "name_he": "וָנִילַיְט שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/49.png"
+  },
+  {
+    "number": 50,
+    "name_en": "N's Vanillish",
+    "name_he": "וָנִילִישׁ שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/50.png"
+  },
+  {
+    "number": 51,
+    "name_en": "N's Vanilluxe",
+    "name_he": "וָנִילָקְס שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/51.png"
+  },
+  {
+    "number": 52,
+    "name_en": "Snom",
+    "name_he": "סְנוֹם",
+    "rarity": "ragil",
+    "image": "images/52.png"
+  },
+  {
+    "number": 53,
+    "name_en": "Frosmoth",
+    "name_he": "פְרוֹסְמוֹת",
+    "rarity": "ragil",
+    "image": "images/53.png"
+  },
+  {
+    "number": 54,
+    "name_en": "Glastrier",
+    "name_he": "גְלָסְטְרִיאֶר",
+    "rarity": "ragil",
+    "image": "images/54.png"
+  },
+  {
+    "number": 55,
+    "name_en": "Pikachu",
+    "name_he": "פִּיקָצ׳וּ",
+    "rarity": "ragil",
+    "image": "images/55.png"
+  },
+  {
+    "number": 56,
+    "name_en": "Raichu",
+    "name_he": "רַיְיצ׳וּ",
+    "rarity": "ragil",
+    "image": "images/56.png"
+  },
+  {
+    "number": 57,
+    "name_en": "Pikachu ex",
+    "name_he": "פִּיקָצ׳וּ אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/57.png"
+  },
+  {
+    "number": 58,
+    "name_en": "Voltorb ex",
+    "name_he": "וּוֹלְטוֹרְבּ אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/58.png"
+  },
+  {
+    "number": 59,
+    "name_en": "Tynamo",
+    "name_he": "טַיְנָמוֹ",
+    "rarity": "ragil",
+    "image": "images/59.png"
+  },
+  {
+    "number": 60,
+    "name_en": "Eelektrik",
+    "name_he": "אִילֶקְטְרִיק",
+    "rarity": "ragil",
+    "image": "images/60.png"
+  },
+  {
+    "number": 61,
+    "name_en": "Mega Eelektross ex",
+    "name_he": "מֶגָה אִילֶקְטְרוֹס אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/61.png"
+  },
+  {
+    "number": 62,
+    "name_en": "Stunfisk",
+    "name_he": "סְטָנְפִיסְק",
+    "rarity": "ragil",
+    "image": "images/62.png"
+  },
+  {
+    "number": 63,
+    "name_en": "Helioptile",
+    "name_he": "הֶלִיאוֹפְּטַיְל",
+    "rarity": "ragil",
+    "image": "images/63.png"
+  },
+  {
+    "number": 64,
+    "name_en": "Heliolisk",
+    "name_he": "הֶלִיאוֹלִיסְק",
+    "rarity": "ragil",
+    "image": "images/64.png"
+  },
+  {
+    "number": 65,
+    "name_en": "Charjabug",
+    "name_he": "צָ׳רְגָ׳בָּאג",
+    "rarity": "ragil",
+    "image": "images/65.png"
+  },
+  {
+    "number": 66,
+    "name_en": "Vikavolt",
+    "name_he": "וִיקָווֹלְט",
+    "rarity": "ragil",
+    "image": "images/66.png"
+  },
+  {
+    "number": 67,
+    "name_en": "Tapu Koko",
+    "name_he": "טָפּוּ קוֹקוֹ",
+    "rarity": "meyuhad",
+    "image": "images/67.png"
+  },
+  {
+    "number": 68,
+    "name_en": "Hop's Pincurchin ex",
+    "name_he": "פִּינְקֶרְצִ׳ין אֶקְס שֶׁל הוֹפּ",
+    "rarity": "meyuhad",
+    "image": "images/68.png"
+  },
+  {
+    "number": 69,
+    "name_en": "Iono's Tadbulb",
+    "name_he": "טָדְבָּאלְבּ שֶׁל אִיוֹנוֹ",
+    "rarity": "ragil",
+    "image": "images/69.png"
+  },
+  {
+    "number": 70,
+    "name_en": "Iono's Bellibolt ex",
+    "name_he": "בֶּלִיבּוֹלְט אֶקְס שֶׁל אִיוֹנוֹ",
+    "rarity": "meyuhad",
+    "image": "images/70.png"
+  },
+  {
+    "number": 71,
+    "name_en": "Iono's Wattrel",
+    "name_he": "ווֹטְרֶל שֶׁל אִיוֹנוֹ",
+    "rarity": "ragil",
+    "image": "images/71.png"
+  },
+  {
+    "number": 72,
+    "name_en": "Iono's Kilowattrel",
+    "name_he": "קִילוֹווֹטְרֶל שֶׁל אִיוֹנוֹ",
+    "rarity": "meyuhad",
+    "image": "images/72.png"
+  },
+  {
+    "number": 73,
+    "name_en": "Miraidon ex",
+    "name_he": "מִירַיְדוֹן אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/73.png"
+  },
+  {
+    "number": 74,
+    "name_en": "Clefairy",
+    "name_he": "קְלֶפֵיירִי",
+    "rarity": "ragil",
+    "image": "images/74.png"
+  },
+  {
+    "number": 75,
+    "name_en": "Clefable",
+    "name_he": "קְלֶפֵיְבֶּל",
+    "rarity": "ragil",
+    "image": "images/75.png"
+  },
+  {
+    "number": 76,
+    "name_en": "Lillie's Clefairy ex",
+    "name_he": "קְלֶפֵיירִי אֶקְס שֶׁל לִילִי",
+    "rarity": "meyuhad",
+    "image": "images/76.png"
+  },
+  {
+    "number": 77,
+    "name_en": "Team Rocket's Exeggcute",
+    "name_he": "אֶקְסֶגְקְיוּט שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/77.png"
+  },
+  {
+    "number": 78,
+    "name_en": "Team Rocket's Exeggutor",
+    "name_he": "אֶקְסֶגוּטוֹר שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "meyuhad",
+    "image": "images/78.png"
+  },
+  {
+    "number": 79,
+    "name_en": "Team Rocket's Mewtwo ex",
+    "name_he": "מְיוּטוּ אֶקְס שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "meyuhad",
+    "image": "images/79.png"
+  },
+  {
+    "number": 80,
+    "name_en": "Togepi",
+    "name_he": "טוֹגֶפִּי",
+    "rarity": "ragil",
+    "image": "images/80.png"
+  },
+  {
+    "number": 81,
+    "name_en": "Togetic",
+    "name_he": "טוֹגֶטִיק",
+    "rarity": "ragil",
+    "image": "images/81.png"
+  },
+  {
+    "number": 82,
+    "name_en": "Togekiss",
+    "name_he": "טוֹגֶקִיס",
+    "rarity": "meyuhad",
+    "image": "images/82.png"
+  },
+  {
+    "number": 83,
+    "name_en": "Marill",
+    "name_he": "מָרִיל",
+    "rarity": "ragil",
+    "image": "images/83.png"
+  },
+  {
+    "number": 84,
+    "name_en": "Azumarill ex",
+    "name_he": "אָזוּמָרִיל אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/84.png"
+  },
+  {
+    "number": 85,
+    "name_en": "Misdreavus",
+    "name_he": "מִיסְדְרֵיבָס",
+    "rarity": "ragil",
+    "image": "images/85.png"
+  },
+  {
+    "number": 86,
+    "name_en": "Mismagius",
+    "name_he": "מִיסְמָגִיוּס",
+    "rarity": "meyuhad",
+    "image": "images/86.png"
+  },
+  {
+    "number": 87,
+    "name_en": "Ralts",
+    "name_he": "רָלְטְס",
+    "rarity": "ragil",
+    "image": "images/87.png"
+  },
+  {
+    "number": 88,
+    "name_en": "Kirlia",
+    "name_he": "קִירְלִיָה",
+    "rarity": "ragil",
+    "image": "images/88.png"
+  },
+  {
+    "number": 89,
+    "name_en": "Mega Gardevoir ex",
+    "name_he": "מֶגָה גָּארְדְּווֹאָר אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/89.png"
+  },
+  {
+    "number": 90,
+    "name_en": "Shuppet",
+    "name_he": "שָׁאפֶּט",
+    "rarity": "ragil",
+    "image": "images/90.png"
+  },
+  {
+    "number": 91,
+    "name_en": "Banette",
+    "name_he": "בָּנֶט",
+    "rarity": "ragil",
+    "image": "images/91.png"
+  },
+  {
+    "number": 92,
+    "name_en": "Rotom",
+    "name_he": "רוֹטוֹם",
+    "rarity": "ragil",
+    "image": "images/92.png"
+  },
+  {
+    "number": 93,
+    "name_en": "Swirlix",
+    "name_he": "סְוִירְלִיקְס",
+    "rarity": "ragil",
+    "image": "images/93.png"
+  },
+  {
+    "number": 94,
+    "name_en": "Slurpuff",
+    "name_he": "סְלֶרְפָּאף",
+    "rarity": "ragil",
+    "image": "images/94.png"
+  },
+  {
+    "number": 95,
+    "name_en": "Hop's Phantump",
+    "name_he": "פָנְטָאמְפּ שֶׁל הוֹפּ",
+    "rarity": "ragil",
+    "image": "images/95.png"
+  },
+  {
+    "number": 96,
+    "name_en": "Hop's Trevenant",
+    "name_he": "טְרֶבֶנָנְט שֶׁל הוֹפּ",
+    "rarity": "meyuhad",
+    "image": "images/96.png"
+  },
+  {
+    "number": 97,
+    "name_en": "Team Rocket's Mimikyu",
+    "name_he": "מִימִיקְיוּ שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/97.png"
+  },
+  {
+    "number": 98,
+    "name_en": "Spectrier",
+    "name_he": "סְפֶּקְטְרִיאֶר",
+    "rarity": "meyuhad",
+    "image": "images/98.png"
+  },
+  {
+    "number": 99,
+    "name_en": "Munkidori",
+    "name_he": "מוּנְקִידוֹרִי",
+    "rarity": "meyuhad",
+    "image": "images/99.png"
+  },
+  {
+    "number": 100,
+    "name_en": "Team Rocket's Diglett",
+    "name_he": "דִיגְלֶט שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/100.png"
+  },
+  {
+    "number": 101,
+    "name_en": "Team Rocket's Dugtrio",
+    "name_he": "דָגְטְרִיוֹ שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/101.png"
+  },
+  {
+    "number": 102,
+    "name_en": "Hitmontop",
+    "name_he": "הִיטְמוֹנְטוֹפּ",
+    "rarity": "ragil",
+    "image": "images/102.png"
+  },
+  {
+    "number": 103,
+    "name_en": "Meditite",
+    "name_he": "מֶדִיטַיְט",
+    "rarity": "ragil",
+    "image": "images/103.png"
+  },
+  {
+    "number": 104,
+    "name_en": "Medicham",
+    "name_he": "מֶדִיצָ׳ם",
+    "rarity": "ragil",
+    "image": "images/104.png"
+  },
+  {
+    "number": 105,
+    "name_en": "Lunatone",
+    "name_he": "לוּנָטוֹן",
+    "rarity": "meyuhad",
+    "image": "images/105.png"
+  },
+  {
+    "number": 106,
+    "name_en": "Solrock",
+    "name_he": "סוֹלְרוֹק",
+    "rarity": "ragil",
+    "image": "images/106.png"
+  },
+  {
+    "number": 107,
+    "name_en": "Regirock ex",
+    "name_he": "רֶגִ׳ירוֹק אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/107.png"
+  },
+  {
+    "number": 108,
+    "name_en": "Groudon",
+    "name_he": "גְרָאוּדוֹן",
+    "rarity": "meyuhad",
+    "image": "images/108.png"
+  },
+  {
+    "number": 109,
+    "name_en": "Cynthia's Gible",
+    "name_he": "גִיבֶּל שֶׁל סִינְתְיָה",
+    "rarity": "ragil",
+    "image": "images/109.png"
+  },
+  {
+    "number": 110,
+    "name_en": "Cynthia's Gabite",
+    "name_he": "גָּבַּיְט שֶׁל סִינְתְיָה",
+    "rarity": "ragil",
+    "image": "images/110.png"
+  },
+  {
+    "number": 111,
+    "name_en": "Cynthia's Garchomp ex",
+    "name_he": "גָּארְצ׳וֹמְפּ אֶקְס שֶׁל סִינְתְיָה",
+    "rarity": "meyuhad",
+    "image": "images/111.png"
+  },
+  {
+    "number": 112,
+    "name_en": "Riolu",
+    "name_he": "רִיאוֹלוּ",
+    "rarity": "ragil",
+    "image": "images/112.png"
+  },
+  {
+    "number": 113,
+    "name_en": "Mega Lucario ex",
+    "name_he": "מֶגָה לוּקָרִיוֹ אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/113.png"
+  },
+  {
+    "number": 114,
+    "name_en": "Stunfisk ex",
+    "name_he": "סְטָנְפִיסְק אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/114.png"
+  },
+  {
+    "number": 115,
+    "name_en": "Pancham",
+    "name_he": "פָּנְצָ׳ם",
+    "rarity": "ragil",
+    "image": "images/115.png"
+  },
+  {
+    "number": 116,
+    "name_en": "Mega Hawlucha ex",
+    "name_he": "מֶגָה הָאוּלוּצָ׳ה אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/116.png"
+  },
+  {
+    "number": 117,
+    "name_en": "Carbink",
+    "name_he": "קָרְבִּינְק",
+    "rarity": "ragil",
+    "image": "images/117.png"
+  },
+  {
+    "number": 118,
+    "name_en": "Rolycoly",
+    "name_he": "רוֹלִיקוֹלִי",
+    "rarity": "ragil",
+    "image": "images/118.png"
+  },
+  {
+    "number": 119,
+    "name_en": "Carkol",
+    "name_he": "קָרְקוֹל",
+    "rarity": "ragil",
+    "image": "images/119.png"
+  },
+  {
+    "number": 120,
+    "name_en": "Coalossal",
+    "name_he": "קוֹלוֹסָל",
+    "rarity": "meyuhad",
+    "image": "images/120.png"
+  },
+  {
+    "number": 121,
+    "name_en": "Koraidon ex",
+    "name_he": "קוֹרַאיְדוֹן אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/121.png"
+  },
+  {
+    "number": 122,
+    "name_en": "Okidogi",
+    "name_he": "אוֹקִידוֹגִי",
+    "rarity": "meyuhad",
+    "image": "images/122.png"
+  },
+  {
+    "number": 123,
+    "name_en": "Gastly",
+    "name_he": "גָּסְטְלִי",
+    "rarity": "ragil",
+    "image": "images/123.png"
+  },
+  {
+    "number": 124,
+    "name_en": "Haunter",
+    "name_he": "הָאנְטֶר",
+    "rarity": "ragil",
+    "image": "images/124.png"
+  },
+  {
+    "number": 125,
+    "name_en": "Mega Gengar ex",
+    "name_he": "מֶגָה גֶ׳נְגָּר אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/125.png"
+  },
+  {
+    "number": 126,
+    "name_en": "Team Rocket's Murkrow",
+    "name_he": "מֶרְקְרוֹ שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/126.png"
+  },
+  {
+    "number": 127,
+    "name_en": "Team Rocket's Honchkrow",
+    "name_he": "הוֹנְצ׳קְרוֹ שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "meyuhad",
+    "image": "images/127.png"
+  },
+  {
+    "number": 128,
+    "name_en": "Poochyena",
+    "name_he": "פּוּצ׳יֶינָה",
+    "rarity": "ragil",
+    "image": "images/128.png"
+  },
+  {
+    "number": 129,
+    "name_en": "Mightyena",
+    "name_he": "מַיְטְיֶינָה",
+    "rarity": "ragil",
+    "image": "images/129.png"
+  },
+  {
+    "number": 130,
+    "name_en": "Galarian Zigzagoon",
+    "name_he": "זִיגְזָגוּן גָּלָארִי",
+    "rarity": "ragil",
+    "image": "images/130.png"
+  },
+  {
+    "number": 131,
+    "name_en": "Galarian Linoone",
+    "name_he": "לִינוּן גָּלָארִי",
+    "rarity": "ragil",
+    "image": "images/131.png"
+  },
+  {
+    "number": 132,
+    "name_en": "Galarian Obstagoon",
+    "name_he": "אוֹבְּסְטָגוּן גָּלָארִי",
+    "rarity": "ragil",
+    "image": "images/132.png"
+  },
+  {
+    "number": 133,
+    "name_en": "Cynthia's Spiritomb",
+    "name_he": "סְפִּירִיטוֹם שֶׁל סִינְתְיָה",
+    "rarity": "ragil",
+    "image": "images/133.png"
+  },
+  {
+    "number": 134,
+    "name_en": "Scraggy",
+    "name_he": "סְקְרָגִי",
+    "rarity": "ragil",
+    "image": "images/134.png"
+  },
+  {
+    "number": 135,
+    "name_en": "Mega Scrafty ex",
+    "name_he": "מֶגָה סְקְרָפְטִי אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/135.png"
+  },
+  {
+    "number": 136,
+    "name_en": "N's Zorua",
+    "name_he": "זוֹרוּאָה שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/136.png"
+  },
+  {
+    "number": 137,
+    "name_en": "N's Zoroark ex",
+    "name_he": "זוֹרוֹאָרְק אֶקְס שֶׁל אֶן",
+    "rarity": "meyuhad",
+    "image": "images/137.png"
+  },
+  {
+    "number": 138,
+    "name_en": "Vullaby",
+    "name_he": "וָלָבִּי",
+    "rarity": "ragil",
+    "image": "images/138.png"
+  },
+  {
+    "number": 139,
+    "name_en": "Mandibuzz ex",
+    "name_he": "מָנְדִיבָּאז אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/139.png"
+  },
+  {
+    "number": 140,
+    "name_en": "Pangoro",
+    "name_he": "פָּנְגוֹרוֹ",
+    "rarity": "ragil",
+    "image": "images/140.png"
+  },
+  {
+    "number": 141,
+    "name_en": "Hoopa",
+    "name_he": "הוּפָּה",
+    "rarity": "meyuhad",
+    "image": "images/141.png"
+  },
+  {
+    "number": 142,
+    "name_en": "Fezandipiti ex",
+    "name_he": "פֶזָנְדִיפִּיטִי אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/142.png"
+  },
+  {
+    "number": 143,
+    "name_en": "Pecharunt",
+    "name_he": "פֶּצָ׳רָנְט",
+    "rarity": "meyuhad",
+    "image": "images/143.png"
+  },
+  {
+    "number": 144,
+    "name_en": "Mawile",
+    "name_he": "מָאוַיְל",
+    "rarity": "ragil",
+    "image": "images/144.png"
+  },
+  {
+    "number": 145,
+    "name_en": "Registeel ex",
+    "name_he": "רֶגִ׳יסְטִיל אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/145.png"
+  },
+  {
+    "number": 146,
+    "name_en": "Pawniard",
+    "name_he": "פּוֹנְיָארְד",
+    "rarity": "ragil",
+    "image": "images/146.png"
+  },
+  {
+    "number": 147,
+    "name_en": "Bisharp",
+    "name_he": "בִּישָׁרְפּ",
+    "rarity": "ragil",
+    "image": "images/147.png"
+  },
+  {
+    "number": 148,
+    "name_en": "Kingambit",
+    "name_he": "קִינְגָּמְבִּיט",
+    "rarity": "meyuhad",
+    "image": "images/148.png"
+  },
+  {
+    "number": 149,
+    "name_en": "Togedemaru ex",
+    "name_he": "טוֹגֶדֶמָרוּ אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/149.png"
+  },
+  {
+    "number": 150,
+    "name_en": "Dratini",
+    "name_he": "דְרָטִינִי",
+    "rarity": "ragil",
+    "image": "images/150.png"
+  },
+  {
+    "number": 151,
+    "name_en": "Dragonair",
+    "name_he": "דְרָגוֹנֵיר",
+    "rarity": "ragil",
+    "image": "images/151.png"
+  },
+  {
+    "number": 152,
+    "name_en": "Mega Dragonite ex",
+    "name_he": "מֶגָה דְרָגוֹנַיְט אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/152.png"
+  },
+  {
+    "number": 153,
+    "name_en": "Rayquaza",
+    "name_he": "רֵייקְוָאזָה",
+    "rarity": "meyuhad",
+    "image": "images/153.png"
+  },
+  {
+    "number": 154,
+    "name_en": "N's Reshiram",
+    "name_he": "רֶשִׁירָם שֶׁל אֶן",
+    "rarity": "meyuhad",
+    "image": "images/154.png"
+  },
+  {
+    "number": 155,
+    "name_en": "N's Zekrom",
+    "name_he": "זֶקְרוֹם שֶׁל אֶן",
+    "rarity": "meyuhad",
+    "image": "images/155.png"
+  },
+  {
+    "number": 156,
+    "name_en": "Noibat",
+    "name_he": "נוֹיְבָּאט",
+    "rarity": "ragil",
+    "image": "images/156.png"
+  },
+  {
+    "number": 157,
+    "name_en": "Noivern",
+    "name_he": "נוֹיְבֶרְן",
+    "rarity": "ragil",
+    "image": "images/157.png"
+  },
+  {
+    "number": 158,
+    "name_en": "Dreepy",
+    "name_he": "דְרִיפִּי",
+    "rarity": "ragil",
+    "image": "images/158.png"
+  },
+  {
+    "number": 159,
+    "name_en": "Drakloak",
+    "name_he": "דְרָקְלוֹאָק",
+    "rarity": "ragil",
+    "image": "images/159.png"
+  },
+  {
+    "number": 160,
+    "name_en": "Dragapult ex",
+    "name_he": "דְרָגָפּוּלְט אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/160.png"
+  },
+  {
+    "number": 161,
+    "name_en": "Team Rocket's Meowth",
+    "name_he": "מִיאָאוּת שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/161.png"
+  },
+  {
+    "number": 162,
+    "name_en": "Team Rocket's Kangaskhan ex",
+    "name_he": "קָנְגָסְקָן אֶקְס שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "meyuhad",
+    "image": "images/162.png"
+  },
+  {
+    "number": 163,
+    "name_en": "Larry's Dunsparce",
+    "name_he": "דָנְסְפָּארְס שֶׁל לָרִי",
+    "rarity": "ragil",
+    "image": "images/163.png"
+  },
+  {
+    "number": 164,
+    "name_en": "Larry's Dudunsparce ex",
+    "name_he": "דוּדָנְסְפָּארְס אֶקְס שֶׁל לָרִי",
+    "rarity": "meyuhad",
+    "image": "images/164.png"
+  },
+  {
+    "number": 165,
+    "name_en": "Skitty",
+    "name_he": "סְקִיטִי",
+    "rarity": "ragil",
+    "image": "images/165.png"
+  },
+  {
+    "number": 166,
+    "name_en": "Delcatty",
+    "name_he": "דֶלְקָטִי",
+    "rarity": "ragil",
+    "image": "images/166.png"
+  },
+  {
+    "number": 167,
+    "name_en": "Zangoose ex",
+    "name_he": "זָנְגוּס אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/167.png"
+  },
+  {
+    "number": 168,
+    "name_en": "Larry's Starly",
+    "name_he": "סְטָרְלִי שֶׁל לָרִי",
+    "rarity": "ragil",
+    "image": "images/168.png"
+  },
+  {
+    "number": 169,
+    "name_en": "Larry's Staravia",
+    "name_he": "סְטָרֵייבְיָה שֶׁל לָרִי",
+    "rarity": "ragil",
+    "image": "images/169.png"
+  },
+  {
+    "number": 170,
+    "name_en": "Larry's Staraptor",
+    "name_he": "סְטָרָפְּטוֹר שֶׁל לָרִי",
+    "rarity": "meyuhad",
+    "image": "images/170.png"
+  },
+  {
+    "number": 171,
+    "name_en": "Fan Rotom",
+    "name_he": "רוֹטוֹם מְאַוְרֵר",
+    "rarity": "ragil",
+    "image": "images/171.png"
+  },
+  {
+    "number": 172,
+    "name_en": "Mega Audino ex",
+    "name_he": "מֶגָה אוֹדִינוֹ אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/172.png"
+  },
+  {
+    "number": 173,
+    "name_en": "Larry's Rufflet",
+    "name_he": "רָפְלֶט שֶׁל לָרִי",
+    "rarity": "ragil",
+    "image": "images/173.png"
+  },
+  {
+    "number": 174,
+    "name_en": "Larry's Braviary",
+    "name_he": "בְּרֵייבְיָארִי שֶׁל לָרִי",
+    "rarity": "ragil",
+    "image": "images/174.png"
+  },
+  {
+    "number": 175,
+    "name_en": "Larry's Komala",
+    "name_he": "קוֹמָלָה שֶׁל לָרִי",
+    "rarity": "ragil",
+    "image": "images/175.png"
+  },
+  {
+    "number": 176,
+    "name_en": "Drampa",
+    "name_he": "דְרָמְפָּה",
+    "rarity": "ragil",
+    "image": "images/176.png"
+  },
+  {
+    "number": 177,
+    "name_en": "Hop's Cramorant",
+    "name_he": "קְרָמוֹרָנְט שֶׁל הוֹפּ",
+    "rarity": "ragil",
+    "image": "images/177.png"
+  },
+  {
+    "number": 178,
+    "name_en": "Terapagos",
+    "name_he": "טֶרָפָּגוֹס",
+    "rarity": "meyuhad",
+    "image": "images/178.png"
+  },
+  {
+    "number": 179,
+    "name_en": "Terapagos ex",
+    "name_he": "טֶרָפָּגוֹס אֶקְס",
+    "rarity": "meyuhad",
+    "image": "images/179.png"
+  },
+  {
+    "number": 180,
+    "name_en": "Acerola's Mischief",
+    "name_he": "הַתַּעְלוּל שֶׁל אָסֶרוֹלָה",
+    "rarity": "ragil",
+    "image": "images/180.png"
+  },
+  {
+    "number": 181,
+    "name_en": "Air Balloon",
+    "name_he": "בָּלוֹן אֲוִיר",
+    "rarity": "ragil",
+    "image": "images/181.png"
+  },
+  {
+    "number": 182,
+    "name_en": "Anthea & Concordia",
+    "name_he": "אָנְתֵיָה וְקוֹנְקוֹרְדִיָה",
+    "rarity": "ragil",
+    "image": "images/182.png"
+  },
+  {
+    "number": 183,
+    "name_en": "Boss's Orders",
+    "name_he": "פְּקוּדוֹת הַבּוֹס",
+    "rarity": "ragil",
+    "image": "images/183.png"
+  },
+  {
+    "number": 184,
+    "name_en": "Buddy-Buddy Poffin",
+    "name_he": "פּוֹפִין חֲבֵרִים",
+    "rarity": "ragil",
+    "image": "images/184.png"
+  },
+  {
+    "number": 185,
+    "name_en": "Canari",
+    "name_he": "קָנָרִי",
+    "rarity": "ragil",
+    "image": "images/185.png"
+  },
+  {
+    "number": 186,
+    "name_en": "Counter Gain",
+    "name_he": "רֶוַח נֶגְדִּי",
+    "rarity": "ragil",
+    "image": "images/186.png"
+  },
+  {
+    "number": 187,
+    "name_en": "Fighting Gong",
+    "name_he": "גּוֹנְג קְרָב",
+    "rarity": "ragil",
+    "image": "images/187.png"
+  },
+  {
+    "number": 188,
+    "name_en": "Forest of Vitality",
+    "name_he": "יַעַר הַחִיּוּת",
+    "rarity": "ragil",
+    "image": "images/188.png"
+  },
+  {
+    "number": 189,
+    "name_en": "Glass Trumpet",
+    "name_he": "חֲצוֹצְרַת זְכוּכִית",
+    "rarity": "ragil",
+    "image": "images/189.png"
+  },
+  {
+    "number": 190,
+    "name_en": "Iris's Fighting Spirit",
+    "name_he": "רוּחַ הַלְחִימָה שֶׁל אִירִיס",
+    "rarity": "ragil",
+    "image": "images/190.png"
+  },
+  {
+    "number": 191,
+    "name_en": "Light Ball",
+    "name_he": "כַּדּוּר אוֹר",
+    "rarity": "ragil",
+    "image": "images/191.png"
+  },
+  {
+    "number": 192,
+    "name_en": "Lillie's Determination",
+    "name_he": "הַנְחִישׁוּת שֶׁל לִילִי",
+    "rarity": "ragil",
+    "image": "images/192.png"
+  },
+  {
+    "number": 193,
+    "name_en": "Mega Signal",
+    "name_he": "אוֹת מֶגָה",
+    "rarity": "ragil",
+    "image": "images/193.png"
+  },
+  {
+    "number": 194,
+    "name_en": "Mystery Garden",
+    "name_he": "גַּן הַמִּסְתּוֹרִין",
+    "rarity": "ragil",
+    "image": "images/194.png"
+  },
+  {
+    "number": 195,
+    "name_en": "N's PP Up",
+    "name_he": "פִּי פִּי אָפּ שֶׁל אֶן",
+    "rarity": "ragil",
+    "image": "images/195.png"
+  },
+  {
+    "number": 196,
+    "name_en": "Night Stretcher",
+    "name_he": "אַלוּנְקַת לַיְלָה",
+    "rarity": "ragil",
+    "image": "images/196.png"
+  },
+  {
+    "number": 197,
+    "name_en": "Nighttime Mine",
+    "name_he": "מִכְרֵה הַלַּיְלָה",
+    "rarity": "ragil",
+    "image": "images/197.png"
+  },
+  {
+    "number": 198,
+    "name_en": "Poké Pad",
+    "name_he": "פּוֹקֶה פָּד",
+    "rarity": "ragil",
+    "image": "images/198.png"
+  },
+  {
+    "number": 199,
+    "name_en": "Premium Power Pro",
+    "name_he": "פְּרֶמְיוּם פָּאוֶור פְּרוֹ",
+    "rarity": "ragil",
+    "image": "images/199.png"
+  },
+  {
+    "number": 200,
+    "name_en": "Surfer",
+    "name_he": "גּוֹלֵשׁ",
+    "rarity": "ragil",
+    "image": "images/200.png"
+  },
+  {
+    "number": 201,
+    "name_en": "Team Rocket's Archer",
+    "name_he": "אָרְצֶ׳ר שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/201.png"
+  },
+  {
+    "number": 202,
+    "name_en": "Team Rocket's Ariana",
+    "name_he": "אָרִיאָנָה שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/202.png"
+  },
+  {
+    "number": 203,
+    "name_en": "Team Rocket's Factory",
+    "name_he": "הַמִּפְעָל שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/203.png"
+  },
+  {
+    "number": 204,
+    "name_en": "Team Rocket's Giovanni",
+    "name_he": "גִ׳ובָאנִי שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/204.png"
+  },
+  {
+    "number": 205,
+    "name_en": "Team Rocket's Great Ball",
+    "name_he": "גְּרֵייט בּוֹל שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/205.png"
+  },
+  {
+    "number": 206,
+    "name_en": "Team Rocket's Hypnotizer",
+    "name_he": "הַמְּהַפְּנֵט שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/206.png"
+  },
+  {
+    "number": 207,
+    "name_en": "Team Rocket's Petrel",
+    "name_he": "פֶּטְרֶל שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/207.png"
+  },
+  {
+    "number": 208,
+    "name_en": "Team Rocket's Proton",
+    "name_he": "פְּרוֹטוֹן שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/208.png"
+  },
+  {
+    "number": 209,
+    "name_en": "Team Rocket's Transceiver",
+    "name_he": "מַשְׁדֵּר שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/209.png"
+  },
+  {
+    "number": 210,
+    "name_en": "Team Rocket's Watchtower",
+    "name_he": "מִגְדַּל הַשְּׁמִירָה שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/210.png"
+  },
+  {
+    "number": 211,
+    "name_en": "Thick Scale",
+    "name_he": "קַשְׂקֶשֶׂת עָבָה",
+    "rarity": "ragil",
+    "image": "images/211.png"
+  },
+  {
+    "number": 212,
+    "name_en": "Tool Scrapper",
+    "name_he": "מְפָרֵק כְּלִים",
+    "rarity": "ragil",
+    "image": "images/212.png"
+  },
+  {
+    "number": 213,
+    "name_en": "Ultra Ball",
+    "name_he": "אוּלְטְרָה בּוֹל",
+    "rarity": "ragil",
+    "image": "images/213.png"
+  },
+  {
+    "number": 214,
+    "name_en": "Urbain",
+    "name_he": "אוּרְבֵּין",
+    "rarity": "ragil",
+    "image": "images/214.png"
+  },
+  {
+    "number": 215,
+    "name_en": "Waitress",
+    "name_he": "מֶלְצָרִית",
+    "rarity": "ragil",
+    "image": "images/215.png"
+  },
+  {
+    "number": 216,
+    "name_en": "Prism Energy",
+    "name_he": "אֶנֶרְגִּיַּת פְּרִיזְמָה",
+    "rarity": "ragil",
+    "image": "images/216.png"
+  },
+  {
+    "number": 217,
+    "name_en": "Team Rocket's Energy",
+    "name_he": "אֶנֶרְגִּיָּה שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "ragil",
+    "image": "images/217.png"
+  },
+  {
+    "number": 218,
+    "name_en": "Erika's Tangela",
+    "name_he": "טָנְגֶלָה שֶׁל אֶרִיקָה",
+    "rarity": "nadir",
+    "image": "images/218.png"
+  },
+  {
+    "number": 219,
+    "name_en": "Beautifly",
+    "name_he": "בְּיוּטִיפְלַיי",
+    "rarity": "nadir",
+    "image": "images/219.png"
+  },
+  {
+    "number": 220,
+    "name_en": "Dustox",
+    "name_he": "דָסְטוֹקְס",
+    "rarity": "nadir",
+    "image": "images/220.png"
+  },
+  {
+    "number": 221,
+    "name_en": "Budew",
+    "name_he": "בָּאדְיוּ",
+    "rarity": "nadir",
+    "image": "images/221.png"
+  },
+  {
+    "number": 222,
+    "name_en": "Ethan's Magcargo",
+    "name_he": "מָגְקָרְגוֹ שֶׁל אֵיתָן",
+    "rarity": "nadir",
+    "image": "images/222.png"
+  },
+  {
+    "number": 223,
+    "name_en": "Numel",
+    "name_he": "נָמֶל",
+    "rarity": "nadir",
+    "image": "images/223.png"
+  },
+  {
+    "number": 224,
+    "name_en": "Salazzle",
+    "name_he": "סָלָזֶל",
+    "rarity": "nadir",
+    "image": "images/224.png"
+  },
+  {
+    "number": 225,
+    "name_en": "Scorbunny",
+    "name_he": "סְקוֹרְבָּאנִי",
+    "rarity": "nadir",
+    "image": "images/225.png"
+  },
+  {
+    "number": 226,
+    "name_en": "Psyduck",
+    "name_he": "סַיְדָאק",
+    "rarity": "nadir",
+    "image": "images/226.png"
+  },
+  {
+    "number": 227,
+    "name_en": "Snorunt",
+    "name_he": "סְנוֹרָנְט",
+    "rarity": "nadir",
+    "image": "images/227.png"
+  },
+  {
+    "number": 228,
+    "name_en": "Weavile",
+    "name_he": "וִיוַיְל",
+    "rarity": "nadir",
+    "image": "images/228.png"
+  },
+  {
+    "number": 229,
+    "name_en": "Heliolisk",
+    "name_he": "הֶלִיאוֹלִיסְק",
+    "rarity": "nadir",
+    "image": "images/229.png"
+  },
+  {
+    "number": 230,
+    "name_en": "Vikavolt",
+    "name_he": "וִיקָווֹלְט",
+    "rarity": "nadir",
+    "image": "images/230.png"
+  },
+  {
+    "number": 231,
+    "name_en": "Iono's Wattrel",
+    "name_he": "ווֹטְרֶל שֶׁל אִיוֹנוֹ",
+    "rarity": "nadir",
+    "image": "images/231.png"
+  },
+  {
+    "number": 232,
+    "name_en": "Marill",
+    "name_he": "מָרִיל",
+    "rarity": "nadir",
+    "image": "images/232.png"
+  },
+  {
+    "number": 233,
+    "name_en": "Misdreavus",
+    "name_he": "מִיסְדְרֵיבָס",
+    "rarity": "nadir",
+    "image": "images/233.png"
+  },
+  {
+    "number": 234,
+    "name_en": "Banette",
+    "name_he": "בָּנֶט",
+    "rarity": "nadir",
+    "image": "images/234.png"
+  },
+  {
+    "number": 235,
+    "name_en": "Togekiss",
+    "name_he": "טוֹגֶקִיס",
+    "rarity": "nadir",
+    "image": "images/235.png"
+  },
+  {
+    "number": 236,
+    "name_en": "Slurpuff",
+    "name_he": "סְלֶרְפָּאף",
+    "rarity": "nadir",
+    "image": "images/236.png"
+  },
+  {
+    "number": 237,
+    "name_en": "Hop's Trevenant",
+    "name_he": "טְרֶבֶנָנְט שֶׁל הוֹפּ",
+    "rarity": "nadir",
+    "image": "images/237.png"
+  },
+  {
+    "number": 238,
+    "name_en": "Team Rocket's Mimikyu",
+    "name_he": "מִימִיקְיוּ שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "nadir",
+    "image": "images/238.png"
+  },
+  {
+    "number": 239,
+    "name_en": "Team Rocket's Dugtrio",
+    "name_he": "דָגְטְרִיוֹ שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "nadir",
+    "image": "images/239.png"
+  },
+  {
+    "number": 240,
+    "name_en": "Hitmontop",
+    "name_he": "הִיטְמוֹנְטוֹפּ",
+    "rarity": "nadir",
+    "image": "images/240.png"
+  },
+  {
+    "number": 241,
+    "name_en": "Medicham",
+    "name_he": "מֶדִיצָ׳ם",
+    "rarity": "nadir",
+    "image": "images/241.png"
+  },
+  {
+    "number": 242,
+    "name_en": "Carbink",
+    "name_he": "קָרְבִּינְק",
+    "rarity": "nadir",
+    "image": "images/242.png"
+  },
+  {
+    "number": 243,
+    "name_en": "Mightyena",
+    "name_he": "מַיְטְיֶינָה",
+    "rarity": "nadir",
+    "image": "images/243.png"
+  },
+  {
+    "number": 244,
+    "name_en": "Cynthia's Spiritomb",
+    "name_he": "סְפִּירִיטוֹם שֶׁל סִינְתְיָה",
+    "rarity": "nadir",
+    "image": "images/244.png"
+  },
+  {
+    "number": 245,
+    "name_en": "Galarian Obstagoon",
+    "name_he": "אוֹבְּסְטָגוּן גָּלָארִי",
+    "rarity": "nadir",
+    "image": "images/245.png"
+  },
+  {
+    "number": 246,
+    "name_en": "Mawile",
+    "name_he": "מָאוַיְל",
+    "rarity": "nadir",
+    "image": "images/246.png"
+  },
+  {
+    "number": 247,
+    "name_en": "Dreepy",
+    "name_he": "דְרִיפִּי",
+    "rarity": "nadir",
+    "image": "images/247.png"
+  },
+  {
+    "number": 248,
+    "name_en": "Drakloak",
+    "name_he": "דְרָקְלוֹאָק",
+    "rarity": "nadir",
+    "image": "images/248.png"
+  },
+  {
+    "number": 249,
+    "name_en": "Larry's Staraptor",
+    "name_he": "סְטָרָפְּטוֹר שֶׁל לָרִי",
+    "rarity": "nadir",
+    "image": "images/249.png"
+  },
+  {
+    "number": 250,
+    "name_en": "Fan Rotom",
+    "name_he": "רוֹטוֹם מְאַוְרֵר",
+    "rarity": "nadir",
+    "image": "images/250.png"
+  },
+  {
+    "number": 251,
+    "name_en": "Sprigatito ex",
+    "name_he": "סְפְּרִיגָטִיטוֹ אֶקְס",
+    "rarity": "nadir",
+    "image": "images/251.png"
+  },
+  {
+    "number": 252,
+    "name_en": "Stunfisk ex",
+    "name_he": "סְטָנְפִיסְק אֶקְס",
+    "rarity": "nadir",
+    "image": "images/252.png"
+  },
+  {
+    "number": 253,
+    "name_en": "Mega Audino ex",
+    "name_he": "מֶגָה אוֹדִינוֹ אֶקְס",
+    "rarity": "nadir",
+    "image": "images/253.png"
+  },
+  {
+    "number": 254,
+    "name_en": "Anthea & Concordia",
+    "name_he": "אָנְתֵיָה וְקוֹנְקוֹרְדִיָה",
+    "rarity": "nadir",
+    "image": "images/254.png"
+  },
+  {
+    "number": 255,
+    "name_en": "Black Belt's Training",
+    "name_he": "אִמּוּן חֲגוֹרָה שְׁחוֹרָה",
+    "rarity": "nadir",
+    "image": "images/255.png"
+  },
+  {
+    "number": 256,
+    "name_en": "Boss's Orders",
+    "name_he": "פְּקוּדוֹת הַבּוֹס",
+    "rarity": "nadir",
+    "image": "images/256.png"
+  },
+  {
+    "number": 257,
+    "name_en": "Canari",
+    "name_he": "קָנָרִי",
+    "rarity": "nadir",
+    "image": "images/257.png"
+  },
+  {
+    "number": 258,
+    "name_en": "Cheren",
+    "name_he": "צֶ׳רֶן",
+    "rarity": "nadir",
+    "image": "images/258.png"
+  },
+  {
+    "number": 259,
+    "name_en": "Counter Gain",
+    "name_he": "רֶוַח נֶגְדִּי",
+    "rarity": "nadir",
+    "image": "images/259.png"
+  },
+  {
+    "number": 260,
+    "name_en": "Glass Trumpet",
+    "name_he": "חֲצוֹצְרַת זְכוּכִית",
+    "rarity": "nadir",
+    "image": "images/260.png"
+  },
+  {
+    "number": 261,
+    "name_en": "Jamming Tower",
+    "name_he": "מִגְדַּל הַשִּׁיבּוּשׁ",
+    "rarity": "nadir",
+    "image": "images/261.png"
+  },
+  {
+    "number": 262,
+    "name_en": "N's PP Up",
+    "name_he": "פִּי פִּי אָפּ שֶׁל אֶן",
+    "rarity": "nadir",
+    "image": "images/262.png"
+  },
+  {
+    "number": 263,
+    "name_en": "Team Rocket's Transceiver",
+    "name_he": "מַשְׁדֵּר שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "nadir",
+    "image": "images/263.png"
+  },
+  {
+    "number": 264,
+    "name_en": "Ultra Ball",
+    "name_he": "אוּלְטְרָה בּוֹל",
+    "rarity": "nadir",
+    "image": "images/264.png"
+  },
+  {
+    "number": 265,
+    "name_en": "Mega Froslass ex",
+    "name_he": "מֶגָה פְרוֹסְלָאס אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/265.png"
+  },
+  {
+    "number": 266,
+    "name_en": "Mega Eelektross ex",
+    "name_he": "מֶגָה אִילֶקְטְרוֹס אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/266.png"
+  },
+  {
+    "number": 267,
+    "name_en": "Mega Diancie ex",
+    "name_he": "מֶגָה דִיאָנְסִי אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/267.png"
+  },
+  {
+    "number": 268,
+    "name_en": "Mega Hawlucha ex",
+    "name_he": "מֶגָה הָאוּלוּצָ׳ה אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/268.png"
+  },
+  {
+    "number": 269,
+    "name_en": "Mega Gengar ex",
+    "name_he": "מֶגָה גֶ׳נְגָּר אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/269.png"
+  },
+  {
+    "number": 270,
+    "name_en": "Mega Scrafty ex",
+    "name_he": "מֶגָה סְקְרָפְטִי אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/270.png"
+  },
+  {
+    "number": 271,
+    "name_en": "Mega Dragonite ex",
+    "name_he": "מֶגָה דְרָגוֹנַיְט אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/271.png"
+  },
+  {
+    "number": 272,
+    "name_en": "Mega Meganium ex",
+    "name_he": "מֶגָה מֶגָנִיוּם אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/272.png"
+  },
+  {
+    "number": 273,
+    "name_en": "Mega Emboar ex",
+    "name_he": "מֶגָה אֶמְבּוֹאָר אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/273.png"
+  },
+  {
+    "number": 274,
+    "name_en": "Mega Feraligatr ex",
+    "name_he": "מֶגָה פֶרָלִיגֵייְטְר אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/274.png"
+  },
+  {
+    "number": 275,
+    "name_en": "Mega Froslass ex",
+    "name_he": "מֶגָה פְרוֹסְלָאס אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/275.png"
+  },
+  {
+    "number": 276,
+    "name_en": "Pikachu ex",
+    "name_he": "פִּיקָצ׳וּ אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/276.png"
+  },
+  {
+    "number": 277,
+    "name_en": "Pikachu ex",
+    "name_he": "פִּיקָצ׳וּ אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/277.png"
+  },
+  {
+    "number": 278,
+    "name_en": "Mega Eelektross ex",
+    "name_he": "מֶגָה אִילֶקְטְרוֹס אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/278.png"
+  },
+  {
+    "number": 279,
+    "name_en": "Iono's Bellibolt ex",
+    "name_he": "בֶּלִיבּוֹלְט אֶקְס שֶׁל אִיוֹנוֹ",
+    "rarity": "nadir_meod",
+    "image": "images/279.png"
+  },
+  {
+    "number": 280,
+    "name_en": "Lillie's Clefairy ex",
+    "name_he": "קְלֶפֵיירִי אֶקְס שֶׁל לִילִי",
+    "rarity": "nadir_meod",
+    "image": "images/280.png"
+  },
+  {
+    "number": 281,
+    "name_en": "Team Rocket's Mewtwo ex",
+    "name_he": "מְיוּטוּ אֶקְס שֶׁל צְוֻות רוֹקֶט",
+    "rarity": "nadir_meod",
+    "image": "images/281.png"
+  },
+  {
+    "number": 282,
+    "name_en": "Mega Diancie ex",
+    "name_he": "מֶגָה דִיאָנְסִי אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/282.png"
+  },
+  {
+    "number": 283,
+    "name_en": "Mega Hawlucha ex",
+    "name_he": "מֶגָה הָאוּלוּצָ׳ה אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/283.png"
+  },
+  {
+    "number": 284,
+    "name_en": "Mega Gengar ex",
+    "name_he": "מֶגָה גֶ׳נְגָּר אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/284.png"
+  },
+  {
+    "number": 285,
+    "name_en": "Mega Scrafty ex",
+    "name_he": "מֶגָה סְקְרָפְטִי אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/285.png"
+  },
+  {
+    "number": 286,
+    "name_en": "N's Zoroark ex",
+    "name_he": "זוֹרוֹאָרְק אֶקְס שֶׁל אֶן",
+    "rarity": "nadir_meod",
+    "image": "images/286.png"
+  },
+  {
+    "number": 287,
+    "name_en": "Marnie's Grimmsnarl ex",
+    "name_he": "גְרִימְסְנָארְל אֶקְס שֶׁל מָרְנִי",
+    "rarity": "nadir_meod",
+    "image": "images/287.png"
+  },
+  {
+    "number": 288,
+    "name_en": "Fezandipiti ex",
+    "name_he": "פֶזָנְדִיפִּיטִי אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/288.png"
+  },
+  {
+    "number": 289,
+    "name_en": "Steven's Metagross ex",
+    "name_he": "מֶטָגְרוֹס אֶקְס שֶׁל סְטִיבֶן",
+    "rarity": "nadir_meod",
+    "image": "images/289.png"
+  },
+  {
+    "number": 290,
+    "name_en": "Mega Dragonite ex",
+    "name_he": "מֶגָה דְרָגוֹנַיְט אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/290.png"
+  },
+  {
+    "number": 291,
+    "name_en": "Canari",
+    "name_he": "קָנָרִי",
+    "rarity": "nadir_meod",
+    "image": "images/291.png"
+  },
+  {
+    "number": 292,
+    "name_en": "Iris's Fighting Spirit",
+    "name_he": "רוּחַ הַלְחִימָה שֶׁל אִירִיס",
+    "rarity": "nadir_meod",
+    "image": "images/292.png"
+  },
+  {
+    "number": 293,
+    "name_en": "Surfer",
+    "name_he": "גּוֹלֵשׁ",
+    "rarity": "nadir_meod",
+    "image": "images/293.png"
+  },
+  {
+    "number": 294,
+    "name_en": "Mega Charizard Y ex",
+    "name_he": "מֶגָה צָ׳רִיזָארְד אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/294.png"
+  },
+  {
+    "number": 295,
+    "name_en": "Mega Dragonite ex",
+    "name_he": "מֶגָה דְרָגוֹנַיְט אֶקְס",
+    "rarity": "nadir_meod",
+    "image": "images/295.png"
+  }
+]
